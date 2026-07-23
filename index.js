@@ -79,7 +79,7 @@ process.stdout.write = function(chunk, encoding, callback) {
 };
 
 import toxicConnect, { useMultiFileAuthState, DisconnectReason, downloadContentFromMessage, jidDecode, proto, getContentType, makeCacheableSignalKeyStore, Browsers, generateWAMessageContent, generateWAMessageFromContent, jidNormalizedUser, S_WHATSAPP_NET } from '@whiskeysockets/baileys';
-import { makeStore } from './lib/MakeStore.js';
+import { MakeStore } from './lib/MakeStore.js';
 
 import pino from 'pino';
 import { Boom } from '@hapi/boom';
